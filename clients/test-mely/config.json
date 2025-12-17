@@ -3,7 +3,7 @@
   "modules": [
     {
       "id": "product-badge",
-      "enabled": false,
+      "enabled": true,
       "show_on": "product",
       "config": {
         "text_before": "CERTIFICADO POR",
