@@ -1,0 +1,17 @@
+{
+  "client_id": "test-mely",
+  "modules": [
+    {
+      "id": "product-badge",
+      "enabled": true,
+      "show_on": "product",
+      "config": {
+        "text_before": "CERTIFICADO POR",
+        "position": "product-name",
+        "show_icon": true,
+        "background": "linear-gradient(135deg, #26a69a 0%, #4db6ac 100%)",
+        "text_color": "#ffffff"
+      }
+    }
+  ]
+}
