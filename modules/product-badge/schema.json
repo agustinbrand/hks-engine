@@ -1,0 +1,41 @@
+{
+  "module_id": "product-badge",
+  "name": "Product Badge",
+  "description": "Badge que muestra certificación con el nombre del producto",
+  "version": "1.0.0",
+  "show_on_options": ["product"],
+  "config_fields": {
+    "position": {
+      "type": "select",
+      "options": ["product-name", "product-price", "add-to-cart"],
+      "default": "product-name",
+      "required": true,
+      "description": "Dónde insertar el badge"
+    },
+    "text_before": {
+      "type": "text",
+      "default": "CERTIFICADO POR",
+      "max_length": 50,
+      "required": true,
+      "description": "Texto antes del nombre del producto"
+    },
+    "show_icon": {
+      "type": "boolean",
+      "default": true,
+      "required": false,
+      "description": "Mostrar ícono de certificación"
+    },
+    "background": {
+      "type": "text",
+      "default": "linear-gradient(135deg, #26a69a 0%, #4db6ac 100%)",
+      "required": false,
+      "description": "Color o gradiente de fondo (CSS)"
+    },
+    "text_color": {
+      "type": "text",
+      "default": "#ffffff",
+      "required": false,
+      "description": "Color del texto (CSS)"
+    }
+  }
+}
