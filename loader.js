@@ -13,7 +13,10 @@
   }
   
   const BASE_URL = 'https://cdn.jsdelivr.net/gh/agustinbrand/hks-engine@main/';
-  const CONFIG_URL = BASE_URL + 'clients/' + CLIENT_ID + '/config.json';
+  const CONFIG_URL =
+    'https://raw.githubusercontent.com/agustinbrand/hks-engine/main/clients/' +
+    CLIENT_ID +
+    '/config.json';
   
   const CACHE_KEY = 'hks_config_' + CLIENT_ID;
   const CACHE_TTL = 600000; // 10 min
