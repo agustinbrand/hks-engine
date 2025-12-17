@@ -12,6 +12,19 @@
         "background": "linear-gradient(135deg, #26a69a 0%, #4db6ac 100%)",
         "text_color": "#ffffff"
       }
+    },
+    {
+      "id": "countdown",
+      "enabled": true,
+      "show_on": "all",
+      "config": {
+        "text": "🔥 3x2 TERMINA EN:",
+        "mode": "daily",
+        "position": "header",
+        "sticky": true,
+        "show_days": false,
+        "background": "linear-gradient(135deg,#dc3545 0%,#dc3545 100%)"
+      }
     }
   ]
 }
